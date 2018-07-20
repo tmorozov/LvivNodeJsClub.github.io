@@ -1,0 +1,14 @@
+title: Lviv NodeJs Club
+description: > #
+  Let's become the best together
+url: "https://lvivnodejsclub.github.io/"
+
+githuburl: https://github.com/LvivNodeJsClub
+
+# Google services
+google_analytics: UA-1596745-42
+
+theme: jekyll-theme-cayman
+paginate: 5
+plugins:
+  - jekyll-feed
