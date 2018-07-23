@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#1 Express Summary"
 image: /images/default.jpg
-tags: [NodeJs, Express]
+tags: [NodeJs, Express, Summary]
 date: 2018-07-23 18:19:00 +0200
 ---
 
