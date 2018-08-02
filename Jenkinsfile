@@ -23,7 +23,7 @@ pipeline {
     )
     booleanParam(
         name: 'post_footer',
-        description: 'Add "Join us next Thursday, at 10:00 in  room"',
+        description: 'Add "Join us next Tuesday, at 10:30 in  room"',
         defaultValue: true
     )
     choice(
@@ -72,7 +72,7 @@ pipeline {
           dir("${env.WORKSPACE}") {
             sh 'git fetch'
             sh 'git pull'
-            sh "git config remote.origin.url 'https://${env.GIT_TOKEN}@github.com/lvivNodeJsClub/lvivNodeJsClub.github.io.git'"
+            sh "git config remote.origin.url 'https://${env.GIT_TOKEN}@github.com/LvivNodeJsClub/LvivNodeJsClub.github.io.git'"
             sh 'git clean -fdx'
           }
         }
@@ -92,7 +92,7 @@ pipeline {
           env.MESSAGE = "${params.post_body.replaceAll("'ll", " will")}" +
               ({params.details_url} ? "${params.details_url}" : "") +
               "\\n" +
-              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
+              ({params.post_footer} ? "Join us next Tuesday, at 10:30 in ${params.room}" : "")
 
           env.POST = "---\n" +
               "layout: post\n" +
