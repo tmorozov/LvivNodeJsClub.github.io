@@ -105,7 +105,7 @@ pipeline {
               "${params.post_body}" +
               ({params.details_url} ? "[${params.details_url}](${params.details_url})" : "") +
               "\n\n" +
-              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
+              ({params.post_footer} ? "Join us next Tuesday, at 10:00 in ${params.room}" : "")
 
           sh 'printenv'
         }
