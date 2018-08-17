@@ -8,4 +8,4 @@ date: 2018-08-14 13:43:00 +0200
 
 This week we created a database migration using Knex. We also added a new "pizza" route that allows persisting records to DB. GitHub repo:[http://bit.ly/2NEzFow](http://bit.ly/2NEzFow)
 
-Join us next Tuesday, at 10:00 in Jamaica (room 223)
+Join us next Tuesday, at 10:30 in Jamaica (room 223)
