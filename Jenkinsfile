@@ -60,15 +60,24 @@ pipeline {
 
   stages {
 
-    stage('Pre build') {
+    stage('Set up env') {
+      when {
+        branch 'master'
+      }
       steps {
         script {
-          if (env.BRANCH_NAME != 'master') {
-            error 'I only execute on the master branch'
-          }
-          if (params.post_title == '') {
-            error 'avoid auto run'
-          }
+          env.SKIP_AUTO_RUN = params.post_title == ''
+        }
+      }
+    }
+
+    stage('Set up git env') {
+      when {
+        branch 'master'
+        environment name: 'SKIP_AUTO_RUN', value: 'false'
+      }
+      steps {
+        script {
           dir("${env.WORKSPACE}") {
             sh 'git fetch'
             sh 'git pull'
@@ -80,6 +89,10 @@ pipeline {
     }
 
     stage('Prepare post') {
+      when {
+        branch 'master'
+        environment name: 'SKIP_AUTO_RUN', value: 'false'
+      }
       steps {
         script {
           def date = new Date()
@@ -113,6 +126,10 @@ pipeline {
     }
 
     stage('Create post') {
+      when {
+        branch 'master'
+        environment name: 'SKIP_AUTO_RUN', value: 'false'
+      }
       steps {
         script {
           dir("${env.WORKSPACE}/_posts") {
@@ -129,6 +146,10 @@ pipeline {
     }
 
     stage('Post reminders') {
+      when {
+        branch 'master'
+        environment name: 'SKIP_AUTO_RUN', value: 'false'
+      }
       steps {
         script {
           sh "curl --silent --request POST --url '${env.SLACK_DEEJAY_TOKEN}' --data '{\"text\":\"${env.MESSAGE}\"}'"
