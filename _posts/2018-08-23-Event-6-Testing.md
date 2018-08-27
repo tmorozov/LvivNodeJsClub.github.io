@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#6 Еуіештп"
+title:  "Event#6 Testing"
 image: /images/default.jpg
 tags: [Mocha, Chai, Sinon, testing]
 date: 2018-08-23 19:23:00 +0200
