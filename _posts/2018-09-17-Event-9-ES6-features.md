@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#9 ES6 features"
 image: /images/default.jpg
-tags: []
+tags: [ES6]
 date: 2018-09-17 14:43:00 +0200
 ---
 
