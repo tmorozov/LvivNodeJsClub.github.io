@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ES6 features summary"
+title:  "Event#9 ES6 features summary"
 image: /images/default.jpg
 tags: [ES6]
 date: 2018-09-19 12:24:00 +0200
