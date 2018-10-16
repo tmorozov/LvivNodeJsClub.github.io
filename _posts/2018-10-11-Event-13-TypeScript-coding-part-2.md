@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#12 TypeScript coding part 2"
+title:  "Event#13 TypeScript coding part 2"
 image: /images/default.jpg
 tags: [TypeScript]
 date: 2018-10-11 16:19:00 +0200
