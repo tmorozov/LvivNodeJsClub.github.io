@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#24 Advanced Docker"
+title:  "Event#25 Advanced Docker"
 image: /images/default.jpg
 tags: [docker]
 date: 2019-01-17 16:29:00 +0200
