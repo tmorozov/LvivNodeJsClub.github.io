@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#31 Docker an CI for existing service."
 image: /images/default.jpg
-tags: [docker]
+tags: [docker,jenkins]
 date: 2019-03-04 17:47:00 +0200
 ---
 
