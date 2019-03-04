@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#23 Continue with TDD"
+title:  "Event#30 Continue with TDD"
 image: /images/default.jpg
 tags: [tdd, testing, supertest]
 date: 2019-02-18 16:20:00 +0200
