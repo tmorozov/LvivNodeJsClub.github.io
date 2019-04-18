@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#36 Swagger "
+title:  "Event#37 Swagger "
 image: /images/default.jpg
 tags: [ swagger]
 date: 2019-04-11 15:54:00 +0200
