@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#41 API Gateway"
+title:  "Event#42 API Gateway"
 image: /images/default.jpg
 tags: [microservice, gateway, express-gateway]
 date: 2019-05-27 16:35:00 +0200
