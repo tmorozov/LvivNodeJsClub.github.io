@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#45 Kubernetes"
+title:  "Event#46 Kubernetes"
 image: /images/default.jpg
 tags: [kubernetes,k8s,docker,containers]
 date: 2019-06-20 15:26:00 +0200
