@@ -6,6 +6,6 @@ tags: []
 date: 2019-07-29 17:47:00 +0200
 ---
 
-NodeJs Club takes a day off this Thursday. We'll meet again in a week.[]()
+NodeJs Club takes a day off this Tuesday. We'll meet again in a week.[]()
 
-Join us next Thursday(06.08.2020), at 10:00 in Jamaica (room 223)
+Join us next Tuesday(06.08.2020), at 10:30 in Jamaica (room 223)
